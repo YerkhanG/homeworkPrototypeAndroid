@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="50dp"
+        android:elevation="10mm"
+        android:text="My vehicle"
+        android:textColor="@color/pinkish"
+        android:textSize="32dp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:layout_width="404dp"
+            android:layout_height="195dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="42dp"
+            android:layout_marginRight="44dp"
+            android:background="@drawable/corners"
+            android:paddingLeft="27dp"
+            android:paddingTop="22dp"
+            android:text="Audi e-tron Sportback"
+            android:textColor="@color/pinkish"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="209dp"
+            android:background="@drawable/corners"
+            android:src="@drawable/car" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:layout_marginLeft="69dp"
+            android:background="@drawable/corners"
+            android:src="@drawable/speed" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="118dp"
+            android:layout_marginLeft="69dp"
+            android:background="@drawable/corners"
+            android:src="@drawable/battery" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="61dp"
+            android:text="262"
+            android:textColor="@color/pinkish"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="83dp"
+            android:text="kilometre left"
+            android:textSize="9dp"
+            android:textAllCaps="true"
+            android:textColor="@color/pinkish"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="118dp"
+            android:text="35%"
+            android:textColor="@color/pinkish"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="140dp"
+            android:text="charged"
+            android:textSize="9dp"
+            android:textAllCaps="true"
+            android:textColor="@color/pinkish"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="41dp"
+        android:text="Nearby Chargers"
+        android:textColor="@color/pinkish"
+        android:textSize="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="8dp"
+        android:text="Netherlands, Amsterdam Change Location"
+        android:textColor="@color/pinkish" />
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp">
+        <TextView
+            android:layout_width="430dp"
+            android:layout_height="134dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="29dp"
+            android:background="@drawable/corners" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/modern_gas_station"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="42dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charge Point Station"
+            android:layout_marginLeft="171dp"
+            android:layout_marginTop="26dp"
+            android:textColor="@color/pinkish"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="street pulo 25"
+            android:textAllCaps="true"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="56dp"
+            android:textColor="@color/pinkish"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amsterdam, Netherlands"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="73dp"
+            android:textColor="@color/pinkish"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 Ports Available"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="99dp"
+            android:textColor="@color/text_boxes"
+            android:textSize="14dp"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp">
+        <TextView
+            android:layout_width="430dp"
+            android:layout_height="134dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="29dp"
+            android:background="@drawable/corners" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/white_gas_station"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="42dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charge Point Station 2"
+            android:layout_marginLeft="171dp"
+            android:layout_marginTop="26dp"
+            android:textColor="@color/pinkish"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="street srna 74"
+            android:textAllCaps="true"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="56dp"
+            android:textColor="@color/pinkish"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amsterdam, Netherlands"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="73dp"
+            android:textColor="@color/pinkish"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Ports Available"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="99dp"
+            android:textColor="#F5CA31"
+            android:textSize="14dp"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp">
+        <TextView
+            android:layout_width="430dp"
+            android:layout_height="134dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="29dp"
+            android:background="@drawable/corners" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/green_and_white"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="42dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charge Point Station 3"
+            android:layout_marginLeft="171dp"
+            android:layout_marginTop="26dp"
+            android:textColor="@color/pinkish"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="street adas 123 123"
+            android:textAllCaps="true"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="56dp"
+            android:textColor="@color/pinkish"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amsterdam, Netherlands"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="73dp"
+            android:textColor="@color/pinkish"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 Ports Available"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="99dp"
+            android:textColor="@color/text_boxes"
+            android:textSize="14dp"/>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
